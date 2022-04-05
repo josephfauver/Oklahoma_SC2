@@ -11,3 +11,5 @@ NE_nCoV_rapid/
    ├── metadata_nextstrain.tsv	        → metadata downloaded from GISAID
    └── Sequencing.xlsx 			→ Custom lab metadata file
 ```
+
+Information on downsampling here: https://github.com/grubaughlab/ncov
