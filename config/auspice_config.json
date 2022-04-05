@@ -1,9 +1,9 @@
 {
-  "title": "Nebraska DHHS SARS-CoV-2 Genomic Analysis",
-  "build_url": "https://dhhs.ne.gov/Pages/default.aspx",
+  "title": "Oklahoma SARS-CoV-2 Genomic Analysis",
+  "build_url": "https://nextstrain.org/",
   "maintainers": [
     {"name": "Joseph Fauver",
-     "url": "https://grubaughlab.com/"}
+     "url": "https://www.thefauverlab.com/"}
   ],
   "colorings": [
     {
