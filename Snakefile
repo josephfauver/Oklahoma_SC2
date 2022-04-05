@@ -1,7 +1,7 @@
 rule all:
 	input:
-		auspice = "auspice/nextstrain-ref_Nebraska.json",
-		frequencies = "auspice/nextstrain-ref_Nebraska_tip-frequencies.json"
+		auspice = "auspice/nextstrain-ref_Oklahoma.json",
+		frequencies = "auspice/nextstrain-ref_Oklahoma_tip-frequencies.json"
 
 # Triggers the pre-analyses
 rule preanalyses:
@@ -23,7 +23,7 @@ rule files:
 		original_dataset = "pre-analyses/gisaid_hcov-19.fasta",
 		new_genomes = "pre-analyses/new_genomes.fasta",
 		full_metadata = "pre-analyses/metadata_nextstrain.tsv",
-		metadata_lab = "pre-analyses/SC2_Project_NE_DHHS.xlsx",
+		metadata_lab = "pre-analyses/Oklahoma_metadata.xlsx",
 		cache = "config/cache_coordinates.tsv",
 		keep = "config/keep.txt",
 		remove = "config/remove.txt",
@@ -34,7 +34,7 @@ rule files:
 		auspice_config = "config/auspice_config.json",
 		dropped_strains = "config/dropped_strains.txt",
 		aligned = "config/aligned.fasta",
-		filt = "nebraska"
+		filt = "OK"
 
 
 files = rules.files.params
