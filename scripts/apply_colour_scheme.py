@@ -486,14 +486,8 @@ if __name__ == '__main__':
    #     results['category'].update({cat: hex})
    #     print('category', cat, hex)
 
-    # special colouring for groups
-    groups = {'Creighton': '#121de6', 'NPHL': '#9306c2', 'UNMC':'#de0707'}
-    results['group'] = {}
-
-    for gro, hex in groups.items():
-        results['group'].update({gro: hex})
-        print('group', gro, hex)
-
+    # special colouring for group
+    
     ''' EXPORT COLOUR FILE '''
     with open(output, 'w') as outfile:
         for trait, entries in results.items():
