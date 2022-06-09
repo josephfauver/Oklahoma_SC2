@@ -498,7 +498,7 @@ if __name__ == '__main__':
             else:
                 code = row['state']
                 
-            strain = code + '/' + row['sample'] + '/' + id # new strain name
+            strain = row['sample'] + '/' + id # new strain name
 
             dict_row['strain'] = strain
             dict_row['iso'] = get_iso(dict_row['country'])
